@@ -5,21 +5,21 @@ Projeto desenvolvido para um processo seletivo, onde foi implementado um mini fr
 
 O escopo do projeto para o processo seletivo contempla as seguintes recomendações:
 
-- **Estrutura da Tabela de Clientes**: a tabela de clientes possui os seguintes campos: `clients`, `id`, `name`, `phone`, `email`, `created_at`, `updated_at`.
-- **Dados Fictícios**: a tabela foi alimentada com um mínimo de 120 registros fictícios.
-- **Tecnologias Utilizadas**: o desenvolvimento foi feito com PHP puro, HTML e Bootstrap.
-- **Paginação**: na exibição de clientes, são mostrados 10 clientes por página, com links de paginação.
-- **Boas Práticas**: foram seguidas boas práticas e implementados itens adicionais que consideramos importantes.
+- **Estrutura da Tabela de Clientes**: a tabela de clientes possuir os seguintes campos: `clients`, `id`, `name`, `phone`, `email`, `created_at`, `updated_at`.
+- **Dados Fictícios**: alimentar tabela com 120 registros fictícios.
+- **Tecnologias Utilizadas**: desenvolver a solução utilizando PHP puro, HTML e Bootstrap.
+- **Paginação**: na exibição de clientes, mostrar 10 clientes por página, com links de paginação.
+- **Boas Práticas**: parte visual fica a critério do candidato, seguir boas práticas e implementar o que considerar relevante.
 
-Todos os requisitos foram atendidos, e algumas implementações extras foram feitas:
+Todos os requisitos foram atendidos, e algumas implementações extras foram adicionadas:
 - A tabela `persons` (clientes) inclui campos adicionais: `gender` (gênero), `birthdate` (data de nascimento), `interest` (interesses) e `deleted_at`.
 - Uma nova tabela, `agents`, foi criada para gerenciar usuários administradores do sistema.
 
 **Limitações e Melhorias Futuras**: devido ao prazo de entrega do projeto, alguns aspectos não foram implementados (por não serem requisitos obrigatórios do escopo inicial), como:
 - Uso de máscara em alguns campos do formulário.
 - Inserção de usuários via arquivo.
-- Recursos de segurança adicionais.
-- Cadastro de administradores (agents) apenas pelo login admin.
+- Recursos de segurança.
+- Cadastro de administradores (agents).
 
 ## Como Usar
 Para utilizar o projeto, basta baixá-lo e executá-lo em um ambiente compatível como XAMPP, Laragon, entre outros.
